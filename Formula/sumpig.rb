@@ -1,23 +1,23 @@
 class Sumpig < Formula
   desc "Merkle tree directory fingerprinting and comparison"
   homepage "https://github.com/tednaleid/sumpig"
-  version "0.2.5"
+  version "0.2.6"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/tednaleid/sumpig/releases/download/v#{version}/sumpig-aarch64-apple-darwin.tar.gz"
-      sha256 "34b5c2a91e0a1ca416074ca512387d77e46222184c3f65774752a0f6953d740a"
+      sha256 "1ff8275a0b7192113f286fdb85998707e1853ffe7fbd113533c4351a5a4f79a1"
     end
     on_intel do
       url "https://github.com/tednaleid/sumpig/releases/download/v#{version}/sumpig-x86_64-apple-darwin.tar.gz"
-      sha256 "3f2e94e0c5baeea63f59f562f4f24134b7d97a1fbf1c241f70f45ea8a217cd25"
+      sha256 "1ab6c4bbd23382ea747edb34ce957aa2489720f32cca666922e3449b8b1a066e"
     end
   end
   on_linux do
     on_intel do
       url "https://github.com/tednaleid/sumpig/releases/download/v#{version}/sumpig-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5dd4dc2452c964bb8228298da776d6f097bebb682420172b8f390ad40375dab9"
+      sha256 "b0f107ed2da37e0c5e11d468e972e97e74b6a5a50f88fa8488ea45a9679d5ac4"
     end
   end
 

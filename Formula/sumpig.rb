@@ -7,17 +7,17 @@ class Sumpig < Formula
   on_macos do
     on_arm do
       url "https://github.com/tednaleid/sumpig/releases/download/v#{version}/sumpig-aarch64-apple-darwin.tar.gz"
-      sha256 "ccbde9cf8cae055a6e4ff1ab696b0738152f84102b04a2ebe8cf2691db440bdf"
+      sha256 "c94a07fd2726cf6906ade972c26dea03c0036529428b9e0f3fb52f3c0a140d03"
     end
     on_intel do
       url "https://github.com/tednaleid/sumpig/releases/download/v#{version}/sumpig-x86_64-apple-darwin.tar.gz"
-      sha256 "fcf595107c096373565d1a127ed174ba16bcb5bc5347bd8d965d1f0a0ee08ad5"
+      sha256 "a403cac41d6cfcbae8f14673c6ab355b7ca804619bf27899ec0b3bbe04fa7a39"
     end
   end
   on_linux do
     on_intel do
       url "https://github.com/tednaleid/sumpig/releases/download/v#{version}/sumpig-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8035f9d4e064d87b91608517172d6affbc505b9c7098a552aa0321eea11a13a3"
+      sha256 "f98129f5f946757d00ddb4f69c6ec355328156658d55ef7ca0d175ef7accafc0"
     end
   end
 
